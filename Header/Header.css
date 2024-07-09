@@ -1,0 +1,82 @@
+header {
+    margin:0;
+    margin-top: 90px;
+    width: 100%;
+    background: url('../../assets/Banner.png');
+    background-size: cover;
+    background-position: center;
+}
+.Wrapper {
+    padding: 40px ;
+    height: 250px;
+    display: flex;
+}
+
+.switch {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFF 0%, #999 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 546px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.swap {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 48px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #595091;
+    margin: 65px;
+    
+}
+
+.Register {
+    color: #595091;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 195px;
+    height: 48px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #FFF;
+}
+
+.white {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    left: 55%;
+    bottom: 39%;
+}
+
+.pad {
+    position: absolute;
+    left: 62%;
+    bottom: 48%;
+    width: 360px;
+    height: 215px;
+    flex-shrink: 0;
+}
